@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.850);    
+    height: 4rem;
+    border-bottom: purple solid;  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: .9rem;
+} 
+.header-left{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.header-right{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    word-spacing: 1.5rem;
+}
+
+a{
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+
+}
+
+.mail_area{
+    background-color: rgba(0, 0, 0, 0.850);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: .9rem;
+}
+
+.mail_left{
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+}
+
+.mail_right{
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.btn{
+    background-color: red;
+    border: none;
+    width: 4.8rem;
+    height: 1.8rem;
+    color: white;
+}
+.mail{
+    height: 1.9rem;
+    width: 15rem;
+}
+.info{
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.design,
+.maintenance,
+.hosting{
+    background-color:rgb(241, 237, 237);
+    margin-top: .5rem;
+    padding: 2rem 2rem 2rem 1rem ;
+    line-height: 2rem;
+    width: 60%;
+}
+
+.form{
+    padding: 2rem 2rem 1rem 1rem;
+    margin-right: 1rem;
+    background-color:rgba(0, 0, 0, 0.850) ;
+    width: 30%;
+    height: 17rem;
+    color:white;
+    position: absolute;
+    right: 0;
+    top: 10rem;
+}
+
+.name,
+.email{
+    width: 24rem;   
+}
+.form_area{
+    margin-top: 1.5rem;
+}
+
+.btn_snd{
+    background-color: red;
+    border: none;
+    color: white;
+    width: 4rem;
+    height: 2.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .header-left{
+        font-size: .5rem;
+        padding: .5rem;
+    }
+
+    nav a{
+
+        padding-bottom: 1rem;
+        font-size: .6rem;
+        text-align: center;
+        text-decoration: purple underline 3px;
+    }
+    .mail_left{
+        font-size: .8rem;
+    }
+    .mail{
+        height: 1.5rem;
+        width: 6rem;
+    }
+    .btn{
+        width: 3rem;
+        height: 1.6rem;
+        font-size: .6rem;
+    }
+    .design,
+    .maintenance,
+    .hosting{
+    font-size: .8rem;
+    width: 18rem;
+    }
+    .info{
+        margin-left: 1rem;
+    }
+    .name,
+    .email,
+    .text{
+    width: 15rem;   
+}
+    .btn_snd{
+        width: 3rem;
+        height: 1.5rem;
+    }
+    .form{
+        position: relative;
+        width: 18rem;
+        top: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header-left{
+        font-size: .5rem;
+        padding: .5rem;
+    }
+
+    nav a{
+
+        padding-bottom: 1rem;
+        font-size: .6rem;
+        text-align: center;
+        text-decoration: purple underline 3px;
+    }
+    .mail_left{
+        font-size: .8rem;
+    }
+    .mail{
+        height: 1.5rem;
+        width: 6rem;
+    }
+    .btn{
+        width: 3rem;
+        height: 1.6rem;
+        font-size: .6rem;
+    }
+    .design,
+    .maintenance,
+    .hosting{
+    font-size: .8rem;
+    width: 18rem;
+    }
+    .info{
+        margin-left: 1rem;
+    }
+    .name,
+    .email,
+    .text{
+    width: 15rem;   
+}
+    .btn_snd{
+        width: 3rem;
+        height: 1.5rem;
+    }
+    .form{
+        position: relative;
+        width: 18rem;
+        top: 1rem;
+    }
+}
