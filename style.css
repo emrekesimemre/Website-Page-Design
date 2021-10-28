@@ -136,7 +136,12 @@ text-align: center;
         margin-top: .4rem;
         font-size: 1rem;
     }
-    
+    .main_header{
+        background-image: url(./img/show_case.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     nav a{
 
         padding-bottom: 1rem;
@@ -191,10 +196,16 @@ text-align: center;
         text-align: center;
    
     }
- nav{
+    nav{
         display: flex;
         flex-direction: column;
 
+    }
+    .main_header{
+        background-image: url(./img/show_case.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     nav a{
 
