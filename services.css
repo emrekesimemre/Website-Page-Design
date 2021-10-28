@@ -104,6 +104,24 @@ a{
     width: 4rem;
     height: 2.5rem;
 }
+.footer{
+    background-image: url(./img/clarusway_logo.png);
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 3rem;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.850);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    margin-top: 2rem;
+    font-size: .7rem;
+}
 
 @media screen and (max-width: 600px){
     .header-left{
