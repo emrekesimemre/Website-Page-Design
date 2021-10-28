@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.850);    
+    height: 4rem;
+    border-bottom: purple solid;  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: .9rem;
+} 
+.header-left{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.header-right{
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+    word-spacing: 1.5rem;
+}
+
+a{
+    color: white;
+    font-size: .8rem;
+    text-decoration: none;
+
+}
+.main_header{
+    background-image: url(./showcase.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+}
+.main_header h2{
+    margin-bottom: 2rem;
+}
+
+.mail_area{
+    background-color: rgba(0, 0, 0, 0.850);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: .9rem;
+}
+
+.mail_left{
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+}
+
+.mail_right{
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.btn{
+    background-color: red;
+    border: none;
+    width: 4.8rem;
+    height: 1.8rem;
+    color: white;
+}
+.mail{
+    height: 1.9rem;
+    width: 15rem;
+}
+
+.pic_area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.brush_logo,
+.css_logo,
+.html_logo{
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.html h4,
+.css h4,
+.brush h4{
+    margin-bottom: 1rem;
+}
+.html,
+.css,
+.brush{
+text-align: center;
+}
+.para{
+    text-align: center;
+    font-size: .8rem;
+}
+
+.footer{
+    background-image: url(./clarusway_logo.png);
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 3rem;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.850);
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    margin-top: 2rem;
+    font-size: .7rem;
+}
+
+
+@media screen and (max-width: 480px){
+    .header-left{
+        display: none;
+    }
+    .header{
+        height: 8rem;
+        display: flex;
+        justify-content: center; 
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+
+        padding-bottom: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: purple underline 3px;
+    }
+    .mail_left{
+        font-size: .5rem;
+    }
+    .mail{
+        height: 1.5rem;
+        width: 6rem;
+    }
+    .btn{
+        width: 3rem;
+        height: 1.6rem;
+        font-size: .6rem;
+    }
+    .pic_area{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .brush_logo,
+    .css_logo,
+    .html_logo{
+    width: 8rem;
+    margin-bottom: 1rem;
+    }
+    .para{
+        text-align: center;
+        font-size: .8rem;
+        padding-bottom: 3rem;
+       text-decoration: solid purple underline;
+    }
+
+}
