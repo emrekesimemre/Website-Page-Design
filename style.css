@@ -124,6 +124,59 @@ text-align: center;
     margin-top: 2rem;
     font-size: .7rem;
 }
+@media screen and (max-width: 600px){ 
+    .header{
+        min-height: 4rem;
+        display: flex;
+        /* flex-direction: column; */
+        text-align: center;
+
+    }
+    .header-left h2{
+        margin-top: .4rem;
+        font-size: 1rem;
+    }
+    
+    nav a{
+
+        padding-bottom: 1rem;
+        font-size: .8rem;
+        text-align: center;
+        text-decoration: purple underline 3px;
+        
+    }
+    .mail_left{
+        font-size: .8rem;
+    }
+    .mail{
+        height: 1.5rem;
+        width: 8rem;
+    }
+    .btn{
+        width: 3rem;
+        height: 1.6rem;
+        font-size: .6rem;
+    }
+    .pic_area{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .brush_logo,
+    .css_logo,
+    .html_logo{
+    width: 8rem;
+    margin-bottom: 1rem;
+    }
+    .para{
+        text-align: center;
+        font-size: .8rem;
+        padding-bottom: 3rem;
+       text-decoration: solid purple underline;
+    }
+
+}
 
 
 @media screen and (max-width: 480px){ 
