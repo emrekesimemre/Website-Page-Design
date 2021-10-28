@@ -109,7 +109,7 @@ a{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .header-left{
         font-size: .5rem;
         padding: .5rem;
