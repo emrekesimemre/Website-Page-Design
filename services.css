@@ -130,8 +130,7 @@ a{
 
     .header{
         height: 4rem;
-        /* display: flex; */
-        /* justify-content: center;  */
+
     }
 
     .header-left h2{
