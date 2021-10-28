@@ -32,7 +32,7 @@ a{
 
 }
 .main_header{
-    background-image: url(./showcase.jpg);
+    background-image: url(./img/showcase.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -107,7 +107,7 @@ text-align: center;
 }
 
 .footer{
-    background-image: url(./clarusway_logo.png);
+    background-image: url(./img/clarusway_logo.png);
     background-size: 10rem;
     background-repeat: no-repeat;
     background-position-x: center;
