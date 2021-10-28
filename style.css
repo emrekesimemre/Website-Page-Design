@@ -126,19 +126,22 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){ 
     
     .header-left{
         display: none;
     }
     .header{
-        height: 8rem;
-        display: flex;
-        justify-content: center; 
-    }
-    nav{
+        min-height: 8rem;
         display: flex;
         flex-direction: column;
+        text-align: center;
+   
+    }
+ nav{
+        display: flex;
+        flex-direction: column;
+
     }
     nav a{
 
@@ -146,6 +149,7 @@ text-align: center;
         font-size: 1rem;
         text-align: center;
         text-decoration: purple underline 3px;
+        
     }
     .mail_left{
         font-size: .5rem;
